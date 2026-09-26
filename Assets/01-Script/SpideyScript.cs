@@ -16,7 +16,7 @@ public class SpideyScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = Vector2.up * strength;
+            rb.linearVelocity = Vector2.up * strength;
         }
     }
 }
