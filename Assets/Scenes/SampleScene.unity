@@ -820,7 +820,7 @@ MonoBehaviour:
   - {fileID: 8707128863991083053, guid: 5fb622d8f0b824fe491d2cd325762c31, type: 3}
   xRange: 45
   yRange: 0
-  spawnInterval: 2.7
+  baseSpawnInterval: 4
   startDelay: 0
 --- !u!4 &1435621973
 Transform:
