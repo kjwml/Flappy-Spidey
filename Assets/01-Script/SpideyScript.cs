@@ -23,6 +23,12 @@ public class SpideyScript : MonoBehaviour
         {
             rb.linearVelocity = Vector2.up * strength;
         }
+
+        if (transform.position.y < -25f)
+        {
+            SpeedManager.ResetState();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

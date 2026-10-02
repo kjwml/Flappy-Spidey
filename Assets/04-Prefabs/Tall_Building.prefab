@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6763803339652396102}
   m_Layer: 0
   m_Name: Tall_Building_0
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
